@@ -1,0 +1,14 @@
+mahsulotlar=['sabzi', 'karam', 'gilos', 'kefir', 'guruch', 'non', 'parashok', 'gazli_ichimliklar', 'kolbasa', 'shokolad', 'olma', 'uzum', 'tarvuz']
+savatlar=[]
+mavjud_emas=[]
+bor_mahsulotlar=[]
+for n in range(5):
+    savatlar.append(input(f"{n+1}-Mahsulotni kiriting: "))
+print(savatlar)  
+for mahsulot in savatlar:
+    if mahsulot in mahsulotlar:
+        bor_mahsulotlar.append(mahsulot)
+        print("Bizda ushbu mahsulotlar mavjud", mahsulot)
+    else:
+        mavjud_emas.append(mahsulot)
+        print("Bizda shu mahsulotlar mavjud emas", mahsulot)

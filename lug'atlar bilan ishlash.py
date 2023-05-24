@@ -24,11 +24,11 @@ Created on Wed Apr 19 12:13:09 2023
 
               #3-mashq
 
-dictionary={'print':'chop etish', 'for':'takrorlash', 'if':'shart', 'else':'aks holda',\
-           'string':'matnli tip', 'float':'haqiqiy sonli tip',\
-           'int':'butun sonli tip', 'boolen':'mantiqiy tip', \
-           'elif':'ketma-ket shart tekshirish',\
-          'upper':'barchasini katta harflarda yozish'}
+#dictionary={'print':'chop etish', 'for':'takrorlash', 'if':'shart', 'else':'aks holda',\
+       #    'string':'matnli tip', 'float':'haqiqiy sonli tip',\
+        #   'int':'butun sonli tip', 'boolen':'mantiqiy tip', \
+         #  'elif':'ketma-ket shart tekshirish',\
+         # 'upper':'barchasini katta harflarda yozish'}
 #print(f"Print bu yozilgan kodlar natijasini ekranga {dictionary['print']} uchun qo'llaniladi")
 #print(f"for bu-dasturda keladigan {dictionary['for']} amallarini bajaradi")
 #print(f"if bu-dasturda {dictionary['if']} bajarish kelganda qo'llaniladi")
@@ -36,8 +36,7 @@ dictionary={'print':'chop etish', 'for':'takrorlash', 'if':'shart', 'else':'aks 
 
              #4-mashq
 #lugat=dictionary[input('biron metod kiriting: ')]
-kiritish = input("ma'lumot turini kiriting: ")
-lugat=dictionary.get(kiritish ,"bunday metod bizning lug'atda yo'q")
-print(lugat)
+#kiritish = input("ma'lumot turini kiriting: ")
+#lugat=dictionary.get(kiritish ,"bunday metod bizning lug'atda yo'q")
+#print(lugat)
 
-             

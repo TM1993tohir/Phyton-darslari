@@ -20,17 +20,15 @@ Created on Wed Apr 26 11:58:41 2023
   # keyin poytaxtlarni alohida-alohida, alifbo ketma-ketligida konsolga chiqaring.
   
   
-davlatlar={"AQSH":"Vashington", "Uzbekistan":"Tashkent", "Japan":"Tokiyo", "Tadjikistan":"Dushanbe","Russia":"Maskva"} 
-print("Dunyo davlatlari")
-for  davlat in sorted(davlatlar.keys()):
-    print(davlat)
-print("\nDunyo davlatlarining poytaxtlari")
-for poytaxt in sorted(davlatlar.values()):
-    print(poytaxt)
+#davlatlar={"AQSH":"Vashington", "Uzbekistan":"Tashkent", "Japan":"Tokiyo", "Tadjikistan":"Dushanbe","Russia":"Maskva"} 
+#print("Dunyo davlatlari")
+#for  davlat in sorted(davlatlar.keys()):
+#    print(davlat)
+#print("\nDunyo davlatlarining poytaxtlari")
+#for poytaxt in sorted(davlatlar.values()):
+#    print(poytaxt)
     
-country = input("Qaysi davlatning poytaxtini bilishni istaysiz?:")
-capital = davlatlar.get(country)
-if capital == None:
-    print("Kechirasiz, bizda bu haqida ma'lumot yo'q")
-else:
-    print(f"{country.upper()}ning poytaxti {capital.title()} shahri")
+#country = input("Qaysi davlatning poytaxtini bilishni istaysiz?:")
+#if country in davlatlar:
+#    print(f"{county} ning poytaxti {davlatlar['country']}")
+#    else 
